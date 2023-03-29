@@ -24,6 +24,7 @@ export default {
 
       return cropText(
         `Analyze the contents of a git commit,provide a suitable commit message,and summarize the contents of the commit.` +
+          `and find bugs.` +
           `The patch contents of this commit are as follows:\n${patchData}`,
       )
     } catch (e) {
