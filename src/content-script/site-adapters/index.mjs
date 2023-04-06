@@ -145,15 +145,15 @@ export const config = {
   },
   gitlab: {
     inputQuery: gitlab.inputQuery,
-    sidebarContainerQuery: ['.js-commit-box-info'],
+    sidebarContainerQuery: ['#content-body'],
     appendContainerQuery: [],
-    resultsContainerQuery: ['.js-commit-box-info'],
+    resultsContainerQuery: ['#content-body'],
   },
   gitlabee: {
     inputQuery: gitlabee.inputQuery,
-    sidebarContainerQuery: ['.js-commit-box-info'],
+    sidebarContainerQuery: ['#content-body'],
     appendContainerQuery: [],
-    resultsContainerQuery: ['.js-commit-box-info'],
+    resultsContainerQuery: ['#content-body'],
   },
   zhihu: {
     inputQuery: zhihu.inputQuery,
